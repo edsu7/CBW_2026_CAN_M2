@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Introduction
+    chapters:
+    - file: introduction/course-schedule
+    - file: introduction/prework-setup-downloads
+    - file: introduction/meet-your-fac
+    
+  - caption: Modules
+    chapters:
+    - file: modules/module1
+    - file: modules/module2
+  
+  - caption: Additional Stuff
+    chapters:
+    - file: markdown-notebooks
+    - file: markdown
+    - file: notebooks
+
+  - caption: Sponsors
+    chapters:
+    - file: sponsors
